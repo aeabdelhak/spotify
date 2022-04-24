@@ -33,7 +33,7 @@ if(!session) return null
       shrink_0
       direction="flex-col"
       gap={10}
-      className=" hover: md:flex  p-4 text-sm sticky top-0  h-screen overflow-y-auto w-52 text-white shadow-xl"
+      className=" hidden md:flex  p-4 text-sm sticky top-0  h-screen overflow-y-auto w-52 text-white shadow-xl"
     >
         <SideItem name="Log Out" onClick={signOut} path={'nevergonaSowUp'} icon={  <AiOutlineLogout />}  />
         <SideItem name="Home" path={router.pathname} href="/" activeOn="/" icon={  <AiOutlineHome />}  />
